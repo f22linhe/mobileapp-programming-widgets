@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Widgets</string>
     <string name="my_edittext_widget">My EditText Widget</string>
+    <string name="image">Image</string>
 </resources>
