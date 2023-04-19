@@ -6,5 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/My_EditText_Widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:background="#cc99ff"
+        android:minHeight="48dp"
+        android:text="@string/my_edittext_widget"
+        android:textSize="16sp"
+        android:inputType="text" />
+
 </LinearLayout>
 
