@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
@@ -11,20 +12,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:padding="5dp"
         android:background="#cc99ff"
+        android:inputType="text"
         android:minHeight="48dp"
+        android:padding="5dp"
         android:text="@string/my_edittext_widget"
-        android:textSize="16sp"
-        android:inputType="text" />
+        android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/My_imageView_Widget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars"
         android:layout_margin="15dp"
-        android:contentDescription="@string/image" />
+        android:contentDescription="@string/image"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/My_Button_Widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#66ccff"
+        android:minWidth="48dp"
+        android:padding="5dp"
+        android:text="@string/my_button_widget"
+        android:textSize="16sp" />
 
 </LinearLayout>
 
