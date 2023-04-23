@@ -26,16 +26,20 @@ specifik endast för ett av objekten så förklaras detta närmare i samband med
 
 Tillägg av en EditText widget. Först sätter vi ett specifikt ID på vår widget för att vid behov senare kunna referera till vår widget. Detta hanteras genom "android:id"
 och värdet sätts till det ID som bestämts för widgeten. Denna princip gäller för att tre widgets som kommer attt presenteras i denna rapport.
-För att ändra bredden på denna widget anger jag "android:layout_width" och sätter värdet till "wrap_content". Detta innebär att 
-widgeten/objektet enbart kommer att ta upp såpass mycket plats som den behöver, till skillnad från "match_parent" som tar upp lika stor bredd som föräldern gör.
+
+För att ändra bredden på denna widget anger jag "android:layout_width" och sätter värdet till "wrap_content". Detta innebär att widgeten/objektet enbart kommer att ta upp 
+såpass mycket plats som den behöver, till skillnad från "match_parent" som tar upp lika stor bredd som föräldern gör.
 För höjden av objektet anges "android:layout_height" och värdet sätts även här till "wrap_content", här gäller samma princip som ovan nämnt. För alla tre widgets
-som följer kommer alla tre att ha samma värde för höjd och bredd, d.v.s. "wrap_content". 
+som följer kommer alla tre att ha samma värde för höjd och bredd, d.v.s. "wrap_content".
+
 Genom att lägga margin mellan objekten kan jag sälerställa ett mellanrum mellan objekten. För detta använder jag "android:layout_margin" och sätter värdet till "15dp"
 (density independent pixel). Detta innebär att runtom hela objektet komemr det att finnas en marginal på 15dp. Alla tre objekt kommer att ha samma värde för marginal.
 Jag vill också centrera den text som står innanför min widget, ge den lite luft mellan text och yttervägg. Detta hanteras genom "android:padding" med ett bärde satt till
 "5dp". Denna padding gäller för EditText widget och Button widget. 
+
 För att vi enkelt (och just för detta tillfälle) ska se skillnad på våra objekt, hanteras bakgrundsfärgen genom "android:background". Här sätts värdet i hexfärgkod.
 EditText får en lila färg medans vår Button får en blå färg.
+
 Det alltid fördelaktigt för utvecklaren att kunna erbjuda anpassning av textstorlek för exemeplvis användare med nedsatt syn. Detta löses genom "android:textSize".
 Det värde som sedan anges är den storlek på text som texten kommer att visas i från start. Genom att ange "sp" (scalable pixels) istället för "dp" innebär att anändaren
 kan skala upp eller ned texten till en tillfredställande storlek. Här har jag sätt värdet för detta attribut till "16sp". Detta gäller även för Button widget.
