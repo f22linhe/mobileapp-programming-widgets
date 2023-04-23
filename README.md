@@ -148,7 +148,7 @@ import android.util.Log;
 
 ```
 
-![img_1.png](img_1.png)
+![img.png](img.png)
 Emulatorn.
 
 ![img_2.png](img_2.png)
